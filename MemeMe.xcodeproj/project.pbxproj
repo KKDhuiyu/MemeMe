@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		064D8E991E7FC44A0032DA33 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064D8E981E7FC44A0032DA33 /* ViewController2.swift */; };
 		06C426141E79EE3400F66937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C426131E79EE3400F66937 /* AppDelegate.swift */; };
 		06C426161E79EE3400F66937 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C426151E79EE3400F66937 /* ViewController.swift */; };
 		06C426191E79EE3400F66937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C426171E79EE3400F66937 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		064D8E981E7FC44A0032DA33 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		06C426101E79EE3400F66937 /* MemeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C426131E79EE3400F66937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06C426151E79EE3400F66937 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				06C426131E79EE3400F66937 /* AppDelegate.swift */,
 				06C426151E79EE3400F66937 /* ViewController.swift */,
+				064D8E981E7FC44A0032DA33 /* ViewController2.swift */,
 				06C426171E79EE3400F66937 /* Main.storyboard */,
 				06C4261A1E79EE3400F66937 /* Assets.xcassets */,
 				06C4261C1E79EE3400F66937 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				06C426161E79EE3400F66937 /* ViewController.swift in Sources */,
 				06C426141E79EE3400F66937 /* AppDelegate.swift in Sources */,
+				064D8E991E7FC44A0032DA33 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				06C4263A1E79EE3500F66937 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06C4263B1E79EE3500F66937 /* Build configuration list for PBXNativeTarget "MemeMeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				06C4263D1E79EE3500F66937 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06C4263E1E79EE3500F66937 /* Build configuration list for PBXNativeTarget "MemeMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				06C426401E79EE3500F66937 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
