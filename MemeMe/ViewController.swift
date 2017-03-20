@@ -20,6 +20,27 @@ class ViewController: UIViewController {
     var count=0
 
 
+    @IBAction func AlertAction(_ sender: Any) {
+        let controller = UIAlertController()
+        controller.title = "Test Alert"
+        controller.message = "This is a test"
+
+        let okAction = UIAlertAction(title: "ok", style: UIAlertActionStyle.default) { action in self.dismiss(animated: true, completion: nil)
+        }
+
+        controller.addAction(okAction)
+        self.present(controller, animated: true, completion: nil)
+    }
+    @IBAction func ActivityAction(_ sender: Any) {
+        let image = UIImage();
+        let activityView = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+        self.present(activityView, animated: true,completion: nil)
+    }
+    @IBAction func cameraRoll(_ sender: Any) {
+        let cameraRollView = UIImagePickerController()
+        self.present(cameraRollView, animated: true, completion: nil)
+
+    }
     @IBAction func changeColor(_ sender: AnyObject) {
         if self.redControl == nil {
             return
